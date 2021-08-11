@@ -20,7 +20,7 @@ public class Identify_Age {
 
 		}
 
-		else if (age >= 60) {
+		else if (age>=60) {
 
 			System.out.println("this person is senoir citizen");
 

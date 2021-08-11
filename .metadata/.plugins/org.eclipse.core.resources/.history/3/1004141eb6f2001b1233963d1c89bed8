@@ -1,0 +1,44 @@
+package TestNg;
+
+
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
+
+public class google {
+
+	//webdriver should be put in main class to access every in program
+
+	@BeforeMethod   
+		
+	public void login() {	          //Setup driver ,maximize window , driver.get("url") i.e steps before creating script
+	
+			
+		
+	}
+	
+	@Test //main program should be write inside test
+	public void sigin() {
+		
+		
+		
+	}
+	
+	
+	
+	@AfterMethod //after test finishing our test to close test write inside aftermethod
+
+	public void logout() {
+		
+		
+		
+	}
+	
+	
+	
+	
+	
+}

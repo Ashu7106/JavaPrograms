@@ -1,0 +1,23 @@
+package TestNg;
+
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.util.Properties;
+
+public class globalParameter {
+
+	public static void main(String[] args) throws IOException {
+		
+		
+		Properties prop=new Properties();
+		FileInputStream fis= new FileInputStream("\\java training\\SeleniumWebdriver\\src\\TestNg\\data.properties");
+		
+		prop.load(fis);
+		
+		System.out.println(prop.getProperty("browser"));
+		
+		
+
+	}
+
+}

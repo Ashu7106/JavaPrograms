@@ -1,0 +1,50 @@
+package JavaPackage;
+
+public class ArrayConcept {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	//array is to stored similar data types value in a array	
+		
+		int i[]=new int[10];
+		
+		i[0]=10;
+		 i[1]=30;
+		 i[2]=40;
+		 i[3]=50;
+		 i[4]=60;
+		 i[5]=70;
+		 i[6]=80;
+		 i[7]=90;
+		 i[8]=100;
+		 i[9]=110;
+		
+		 System.out.println(i[0]);
+		 System.out.println(i.length);
+		 
+		 for(int k=0; k<=i.length; k++){
+			 
+			 
+		System.out.println(i[k]);
+		
+			 
+		 } 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+				
+				
+		
+		
+		
+
+	}
+
+}

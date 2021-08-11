@@ -1,0 +1,15 @@
+package OOPInterface;
+
+public interface Automobile {
+	
+	public void motorcyle();
+		
+	public static void cycle() {
+
+	    System.out.println("cycle");
+		
+	}
+		
+	
+
+}

@@ -1,0 +1,16 @@
+package JavaPackage;
+
+public class ArrayConcept {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	//array is to stored similar data types value in a array	
+		
+		
+		
+		
+
+	}
+
+}

@@ -1,0 +1,27 @@
+package OOPInterface;
+
+public class Vehicle implements Automobile {
+
+	
+ public void Car() {
+	  
+	 
+	 System.out.println("class A cars ");
+	 
+ }
+	
+ 
+         public static void Van() {
+	 
+	 System.out.println("from class");
+	 
+ }
+  
+ public void engine() {
+	 
+	String cc=engineering.capacity;
+	 
+	 System.out.println(cc); 
+ }
+	
+}

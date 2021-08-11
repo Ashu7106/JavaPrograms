@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-08-01T23:05:45 IST" name="Suite" finished-at="2021-08-01T23:05:45 IST" duration-ms="71">
+    <groups>
+    </groups>
+    <test started-at="2021-08-01T23:05:45 IST" name="Test" finished-at="2021-08-01T23:05:45 IST" duration-ms="71">
+      <class name="test.Selenium">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:test.Selenium@63a65a25]" started-at="2021-08-01T23:05:45 IST" name="openBrowser" finished-at="2021-08-01T23:05:45 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="typeurl()[pri:0, instance:test.Selenium@63a65a25]" started-at="2021-08-01T23:05:45 IST" name="typeurl" finished-at="2021-08-01T23:05:45 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- typeurl -->
+        <test-method signature="regPage()[pri:0, instance:test.Selenium@63a65a25]" started-at="2021-08-01T23:05:45 IST" name="regPage" finished-at="2021-08-01T23:05:45 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- regPage -->
+      </class> <!-- test.Selenium -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

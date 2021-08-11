@@ -1,0 +1,27 @@
+package OOPConceptPart1;
+
+public class CallByValue {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		 CallByValue obj=new CallByValue();
+		 
+		 
+		 
+		// int k=obj.sum(10, 20); // method is call by values 
+		 //System.out.println(k);
+		
+		System.out.println(sum());
+	}
+	
+	
+	public static int sum() {
+		
+	int c=10+20;	
+	System.out.println(c);
+    return c;	
+	}
+
+}

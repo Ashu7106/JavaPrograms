@@ -1,0 +1,17 @@
+package OOPInterface;
+
+public interface Automobile extends engineering{
+	
+	public void Car();
+		
+	public static void Van() {
+
+	    System.out.println("from interface");
+		
+	    
+	    
+	}
+		
+	
+
+}
